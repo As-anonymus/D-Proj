@@ -1,0 +1,24 @@
+virtualenv env // env is the name of environment
+
+env\scripts\activate
+
+pip install django 
+
+django-admin startproject studybud // passing the file name at end
+
+// move to the project folder cd
+
+python manage.py runserver // to run v server
+
+http://127.0.0.1:8000/ // local host
+
+// store env in folder and open vs code
+
+env\scripts\activate
+
+python manage.py runserver
+
+// in other terminal
+
+python manage.py startapp base
+
