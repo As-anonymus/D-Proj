@@ -1,12 +1,13 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StudyBud</title>
-<!--     <link  rel="stylesheet" type="text/css" media="screen" href = 'main.css'>
- -->
+    <link  rel="stylesheet" type="text/css" media="screen" href = "{% static 'styles/main.css' %}">
+ 
 
 </head>
 <body>
@@ -22,7 +23,8 @@
 </ul>
 {% endif %}
 
-
+<!-- <img  src = "{%  static 'C:\Users\Aditya Singh\Desktop\studybud\static\styles\images\a.jpeg'   %}"/>
+ -->
 {% block content %}
 {% endblock %}
 
